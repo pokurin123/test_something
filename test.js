@@ -1,7 +1,6 @@
 console.log("Hello World")
-var object = {};
-//object.~~ ←ここでkeyを指定する
-//keyは[~~~]で指定しても良いらしい
-object["name"] = "abc";
-console.log(object);
-console.log(object.name);
+function add(a,b){
+    return a+b
+}
+let x = add(3,5)
+console.log(x)
