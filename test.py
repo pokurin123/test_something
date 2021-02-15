@@ -5,4 +5,4 @@ def add(a,b):
         x[i] += b
 
 add(x,1)
-print(x)
+print
